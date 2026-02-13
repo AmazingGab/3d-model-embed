@@ -39,7 +39,7 @@ header h1 {
   color: white;
   font-weight: 1000;
   text-transform: uppercase;
-  transition: 0.3;
+  transition: 0.3s;
 }
 
 .navlinks a:hover {
@@ -68,6 +68,14 @@ section {
   border-radius: 20px;
   overflow: hidden;
 }
+.displayvid {
+  text-align: center;
+  height: 400px;
+  width: auto;
+  background-color: rgba(245, 245, 245, 0.7);
+  border-radius: 20px;
+  overflow: hidden;
+}
 
 .links {
   display: flex;
@@ -85,7 +93,7 @@ section {
   font-weight: 1000;
   padding: 20px 30px;
   box-shadow: 0 0px 8px rgba(75, 75, 75, 0.7);
-  transition: 0.3s;
+  transition: 0.6s;
 }
 
 .links a:hover {
@@ -93,6 +101,16 @@ section {
   transform: scale(1.05);
   color: rgb(0, 0, 0);
   box-shadow: 0 0px 8px rgba(193, 193, 193, 0.7);
+}
+
+p a {
+  color: rgb(170, 0, 255);
+  transition: 0.4s;
+}
+
+p a:hover {
+  color: white;
+  background-color: rgb(170, 0, 255);
 }
 
 footer {
